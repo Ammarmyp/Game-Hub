@@ -3,6 +3,7 @@ import axios, { AxiosRequestConfig } from "axios";
 //the actual data we recieve from the api client
 export interface FetchResponse<T> {
     count: number;
+    next: string | null;
     results: T[];
 }
 
