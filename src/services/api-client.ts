@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//the actual data we recieve from the api client
 export interface FetchResponse<T> {
     count: number;
     results: T[];
