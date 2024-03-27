@@ -4,7 +4,7 @@ import APIClient from "../services/api-client";
 import { Trailer } from "../entities/Trailer";
 
 
-const useTrailer = (gameId: number) => {
+const useTrailers = (gameId: number) => {
 
     const apiClient = new APIClient<Trailer>(`/games/${gameId}/movies`)
 
@@ -14,4 +14,4 @@ return useQuery({
 })
 }
 
-export default useTrailer;
+export default useTrailers;
