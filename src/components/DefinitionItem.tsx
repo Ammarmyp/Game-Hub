@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { Game } from "../entities/Game";
+import  Game  from "../entities/Game";
 import { Box, Heading } from "@chakra-ui/react";
 
 interface Props {
